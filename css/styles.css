@@ -40,7 +40,7 @@ body {
   color: #404bbf;
 }
 
-.menu-item.current:active {
+.menu-item:active {
   text-decoration: underline;
 }
 
