@@ -13,14 +13,15 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-.logo-accent {
-  color: #4d5ae5;
+.site-logo-accent {
+  color: #2e2f42;
 }
 
 .menu-list {
@@ -42,14 +43,18 @@ body {
   text-decoration: underline;
 }
 
+.site-contacts {
+  font-style: normal;
+}
+
 .contacts-list {
   list-style: none;
 }
 
 .contacts-link {
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.48px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
   color: #434455;
   text-decoration: none;
 }
@@ -70,6 +75,7 @@ body {
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-button {
@@ -78,6 +84,7 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  line-height: 1.5;
 }
 
 .hero-button:hover,
@@ -86,11 +93,12 @@ body {
 }
 
 /* second section */
-.section-title {
+.features-title {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.72px;
   color: #2e2f42;
+  line-height: 1.2;
 }
 
 .features-list {
@@ -109,6 +117,15 @@ body {
   background-color: #f4f4fd;
 }
 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .team-list {
   list-style: none;
 }
@@ -125,6 +142,14 @@ body {
 }
 
 /* fourth section */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
 
 .portfolio-list {
   list-style: none;
@@ -150,10 +175,15 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
