@@ -42,6 +42,7 @@ body {
 
 .menu-item:active {
   text-decoration: underline;
+  letter-spacing: 0.02em;
 }
 
 .site-contacts {
