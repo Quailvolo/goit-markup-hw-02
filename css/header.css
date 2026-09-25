@@ -1,0 +1,29 @@
+/* Стилі логотипа для хедера */
+.header-logo {
+  color: #2e2f42;
+}
+
+.header-logo .logo-accent {
+  color: #4d5ae5;
+}
+
+/* Стилі навігаційних посилань */
+.navigation-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #404bbf;
+}
+
+/* Стилі контактних посилань */
+.contacts-link {
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
